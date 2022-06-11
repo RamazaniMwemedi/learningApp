@@ -1,10 +1,15 @@
 import React from "react";
+import Footer from "./Footer";
+
 import "../styles/Home.css";
+
 const Home = () => {
   return (
     <div className="home">
       <h1>This is Home page</h1>
       <MidHome />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
@@ -81,6 +86,7 @@ const MidHome = () => {
           <Topic key={object.id} object={object} />
         ))}
       </div>
+      
     </div>
   );
 };
@@ -91,7 +97,7 @@ const Topic = ({ object }) => {
       style={{
         backgroundColor: object.color,
       }}
-        className="topic"
+      className="topic"
     >
       <h1>{object.name}</h1>
     </div>
