@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css';
+import '../styles/Contact.css';
 
 import backgroundPic from "../Images/cute.jpg";
 import location from "../Images/location.png";
