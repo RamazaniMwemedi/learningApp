@@ -39,7 +39,9 @@ const Left = () => {
 const Right = ({icons}) => {
   return (
     <div className="right">
-        <h4>Contacts</h4>
+        <h4 style={{
+          color:"white"
+        }} >Contacts</h4>
       <div className="icons">
         {icons.map((icon, index) => {
           return (

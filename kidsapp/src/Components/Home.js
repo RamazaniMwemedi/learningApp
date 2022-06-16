@@ -6,7 +6,6 @@ import "../styles/Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <h1>This is Home page</h1>
       <MidHome />
       {/* Footer */}
       <Footer />
@@ -15,6 +14,13 @@ const Home = () => {
 };
 
 export default Home;
+
+const TopHome = () => { 
+  return(
+    <div className="top-home">
+      </div>
+  )
+ }
 
 const MidHome = () => {
   const buttonsArray = [
