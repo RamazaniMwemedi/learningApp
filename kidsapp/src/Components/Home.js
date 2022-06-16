@@ -9,8 +9,7 @@ import computer from "../Images/computer.png"
 const Home = () => {
   return (
     <div className="home">
-<<<<<<< HEAD
-=======
+
       {/* code from chuol */}
 
       <div className="container">
@@ -32,7 +31,6 @@ const Home = () => {
       {/* end of code from chuol */}
 
       {/* <h1>This is Home page</h1> */}
->>>>>>> 907f64f8cdd429c0acc89cb05e58ef68b4015d5a
       <MidHome />
       {/* Footer */}
       <Footer />
