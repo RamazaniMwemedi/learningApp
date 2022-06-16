@@ -23,17 +23,25 @@ const Left = () => {
     const year = new Date().getFullYear(); 
 
   return (
+    
     <div className="left">
-      <p>
+      <p style={{
+        color: "white",
+        textAlign: "center"
+      }}>
         Course correct exposes your kid to the best interactive learning and <br/>
-        also expose them to the lastest technologies.
+        also expose them to the latest technologies.
       </p>
       <br />
       <p>Take your kids from zero to hero!</p>
       <br />
       <br />
-      <h2>Copyright©{year}</h2>
-    </div>
+      <h2 style={{
+        color: "white",
+        textAlign: "center"
+      }} >Copyright©{year}</h2>
+      </div>
+      
   );
 };
 const Right = ({icons}) => {
@@ -56,6 +64,7 @@ const Right = ({icons}) => {
         }
         )}
         </div>
-    </div>
+      </div>
+    
   );
 };
