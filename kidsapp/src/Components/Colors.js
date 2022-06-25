@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Footer from './Footer';
+import { SayButton } from 'react-say-fork';
+import Nav from './Nav';
 
 const Colors = () => {
   // Array of objects of 1000 random colors with readable names
@@ -125,22 +128,32 @@ const Colors = () => {
     { id: 120, name: 'papayawhip', color: '#ffefd5' },
   ]
   return (
+    <div>
+      <Nav/>
     <div style={{
       backgroundColor: "aliceblue",
     }}>
-      <h1>Color</h1>
+      <h1>Let's Learn Colors</h1>
       {/* Map colors */}
       <div style={{
         // display in grid of five
         display: 'grid',
         gridTemplateColumns: 'repeat(4, 1fr)',
-        gap:"10px"
+        gap: "10px",
+        cursor: "pointer"
       }} >
         {colors.map(color => (
+          <SayButton
+            speak={color.name}
+          >
           <Color key={color.id} color={color} />
+          </SayButton>
         ))}
       </div>
-    </div>
+    
+      <Footer />
+      </div>
+      </div>
   )
 }
 
@@ -160,6 +173,7 @@ const Color = ({ color }) => {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
+      cursor: "pointer",
 
     }}>
       <h2 style={{

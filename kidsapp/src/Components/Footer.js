@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
-
+import Nav from "./Nav";
 import facebooklogo from "../Images/facebooklogo.png";
 import instagramlogo from "../Images/instagramlogo.png";
 import gmaillogo from "../Images/gmaillogo.png";
@@ -9,7 +9,9 @@ import linkedinlogo from "../Images/linkedinlogo.png";
 const Footer = () => {
   const icons = [facebooklogo, instagramlogo, gmaillogo, linkedinlogo];
   return (
+    
     <div className="footer">
+  
       <Left />
       <Right icons={icons}/>
     </div>

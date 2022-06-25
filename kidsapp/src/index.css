@@ -21,14 +21,12 @@ code {
   padding: 20px;
   display:flex;
   align-items: center;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   border-bottom: 1px solid #292626;
-  
-  
 }
-.navbar h1{
-  color: #f1356d;
+.navbar h2{
+  /* color: #f1356d; */
   font-size:50px;
   cursor: pointer;
 }
@@ -68,4 +66,107 @@ code {
 }
 .links a{
   font-size:40px;
+}
+
+
+.typeMe{
+  font-size:30px;
+  color: #f1356d;
+  width: 600px;
+  height: 80px;
+  border: 1px solid #f1356d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Quicksand";
+}
+#btnRead{
+  background-color: #35f157;
+  color: white;
+  border: 1px solid #f1356d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Quicksand";
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 300px;
+}
+.main{
+
+  margin-bottom: 100px;
+}
+.loginForm{
+  align-items: center;
+  justify-content: center;
+
+}
+.loginForm input{
+  height: 50px;
+  width: 70vh;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #888888;
+}
+.loginForm input:focus{
+  
+  box-shadow:2px 0px 10px 0px greenyellow;
+  outline: none;
+}
+.btnLogin{
+  height: 50px;
+  margin: 20px;
+  font-size: 30px;
+  width: 40vh;
+  border-radius: 20px;
+  border: none;
+  background-color: #73de87;
+  cursor: pointer;
+}
+.btnCreate{
+  height: 50px;
+  margin: 20px;
+  font-size: 30px;
+  width: 40vh;
+  border-radius: 20px;
+  border: none;
+  background-color: #73de87;
+  cursor: pointer;
+
+}
+.pCreate{
+  color: #273036;
+}
+
+.btnBarLogin{
+  width: 12vh;
+  height: 40px;
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  border: transparent;
+}
+.btnBarLogin:hover{
+  background-color: #35f157;
+  color: white;
+}
+
+
+.btnBarSignup{
+  width: 12vh;
+  height: 40px;
+  background-color: gray;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  border: transparent;
+}
+.btnBarSignup:hover{
+  background-color: #35f157;
+  color: white;
 }

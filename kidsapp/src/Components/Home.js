@@ -5,11 +5,12 @@ import {Link} from 'react-router-dom';
 import "../styles/Home.css";
 
 import computer from "../Images/computer.png"
+import Nav from "./Nav";
 
 const Home = () => {
   return (
     <div className="home">
-
+<Nav/>
       {/* code from chuol */}
 
       <div className="container">
@@ -40,12 +41,7 @@ const Home = () => {
 
 export default Home;
 
-const TopHome = () => { 
-  return(
-    <div className="top-home">
-      </div>
-  )
- }
+
 
 const MidHome = () => {
   const buttonsArray = [
@@ -111,18 +107,26 @@ const MidHome = () => {
     },
     {
       //not important here
-      name: "Trees",
+      name: "Let computer read",
       color: "blue",
       id: 11,
-      url:"/trees"
+      url:"/read"
     },
     {
     //not important here
-      name: "Chairs",
+      name: "Countries and their cities",
       color: "dodgerblue",
       id: 12,
       url:"/chairs"
     },
+
+    {
+      //not important here
+        name: "Quizzes",
+        color: "blue",
+        id: 12,
+        url:"/quiz"
+      },
   ];
   return (
     <div className="mid-home">

@@ -1,14 +1,15 @@
 import React from 'react';
 import '../styles/Contact.css';
-
 import backgroundPic from "../Images/cute.jpg";
 import location from "../Images/location.png";
 import phone from "../Images/phone.jpg";
 import email from "../Images/email.jpg";
+import Nav from './Nav';
 
 const Contact = () => {
     return (
         <>
+            <Nav/>
     <div className="contact-background" style={{backgroundImage: `url(${ backgroundPic})`}}>
             <h1>Get in touch <br></br> with us</h1>
             </div>
