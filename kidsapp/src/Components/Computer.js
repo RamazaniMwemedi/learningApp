@@ -17,7 +17,7 @@ const Computer = () => {
       id: 2,
       name: "Desktop",
       description: "Motherboard is the main board of the computer",
-      image: "https://i.pcmag.com/imagery/reviews/038cr8N8ecBWQ8AtPgMhOyX-1.fit_lim.size_625x365.v1637625492.jpg"
+      image: "https://i.pcmag.com/imagery/reviews/038cr8N8ecBWQ8AtPgMhOyX-1.fit_lim.size_625x365.v1637625492.jpg",
     },
 
     {
